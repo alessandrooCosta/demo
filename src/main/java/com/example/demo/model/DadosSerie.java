@@ -14,3 +14,4 @@ public record DadosSerie(@JsonAlias("Title") String Titulo,
                          @JsonAlias("imdbRating")String avaliacao,
                          @JsonProperty("imdbVotes")String votos){
 }
+

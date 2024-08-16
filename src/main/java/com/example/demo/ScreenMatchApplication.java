@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.model.DadosEpisodio;
 import com.example.demo.model.DadosSerie;
 import com.example.demo.service.ConsumoAPI;
 import com.example.demo.service.ConverteDados;
@@ -22,5 +23,8 @@ public class ScreenMatchApplication implements CommandLineRunner {
 		ConverteDados conversor = new ConverteDados();
 		DadosSerie dados = conversor.obterDados(json, DadosSerie.class);
 		System.out.println(dados);
+		var json1 = consumo.obterDados("http://www.omdbapi.com/?t=gilmore+girls&season=1&episode=2&apikey=6585022c");
+		DadosEpisodio dados1 = conversor.obterDados(json1, DadosEpisodio.class);
+		System.out.println(dados1);
 	}
 }
