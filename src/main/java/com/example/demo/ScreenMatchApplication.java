@@ -12,7 +12,7 @@ public class ScreenMatchApplication implements CommandLineRunner {
 		SpringApplication.run(ScreenMatchApplication.class, args);
 	}
 
-	// foi criada está anotação para rodar a aplicação. Foi implementado CommandLineRunner.
+	// Foi criada esta anotação para rodar a aplicação. Foi implementado CommandLineRunner.
 	@Override
 	public void run(String... args) throws Exception {
 		Principal principal = new Principal();

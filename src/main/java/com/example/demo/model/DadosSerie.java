@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-// Utilizamos recordes, e a Anotação JsonAlias e JsonProperty para dar um apelido para aas variaveis que vão ser vinculadas com
+// Utilizamos recordes, e a Anotação JsonAlias e JsonProperty para dar um apelido para as variaveis que vão ser vinculadas com
 // os dados da API
 // Json Property ler e insere dados.
 // JSon Alias só ler
